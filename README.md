@@ -1,0 +1,1 @@
+# SelfPublishingAI-Plugin
