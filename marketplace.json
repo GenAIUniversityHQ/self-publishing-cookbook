@@ -1,0 +1,25 @@
+{
+  "name": "self-publishing-cookbook",
+  "owner": {
+    "name": "Gen AI University",
+    "email": "darby@theaiauthor.com"
+  },
+  "metadata": {
+    "description": "90-day self-publishing journey skills based on Chandler Bolt's methodology",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "self-publishing-cookbook",
+      "source": "./",
+      "description": "Complete Claude Skills ecosystem for guiding entrepreneurs from blank page to published book in 90 days",
+      "version": "1.0.0",
+      "author": {
+        "name": "Gen AI University"
+      },
+      "category": "productivity",
+      "tags": ["writing", "publishing", "book", "author"],
+      "license": "MIT"
+    }
+  ]
+}
