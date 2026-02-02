@@ -1,0 +1,34 @@
+{
+  "name": "self-publishing-cookbook",
+  "version": "1.0.0",
+  "description": "Complete Claude Skills ecosystem for guiding entrepreneurs from blank page to published book in 90 days",
+  "author": {
+    "name": "Gen AI University",
+    "email": "darby@theaiauthor.com"
+  },
+  "license": "MIT"
+}
+```
+
+4. Click **Commit changes**
+
+5. Then do the same thing again—**Add file** → **Create new file**:
+```
+   .claude-plugin/marketplace.json
+{
+  "name": "self-publishing-cookbook",
+  "owner": {
+    "name": "Gen AI University"
+  },
+  "metadata": {
+    "description": "90-day self-publishing journey skills",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "self-publishing-cookbook",
+      "source": "./",
+      "version": "1.0.0"
+    }
+  ]
+}
